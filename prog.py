@@ -76,7 +76,7 @@ with open("C:/Users/cmcol/Desktop/IUT_RT/SAE 15/DumpFile.txt", "r") as f:
             # Compte le nombre d'occurences d'adresse IP                                               
             for ip in IP_pattern.findall(line):
                 compteur += 1
-    print("nombre",compteur,"d'ip")
+    print("Il y a",compteur,"d'ip")
     
     # On a fini de parcourir tout le fichier f        
     # Ouvre le fichier mentionné en écriture et ajout
